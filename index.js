@@ -33,7 +33,7 @@ let statuses = [
 let currentStatusIndex = 0;
 
 client.on('ready', async (c) => {
-  console.log(`✅ ${c.user.tag} is online.`);
+  console.log(`✅ ${c.user.tag} est en ligne.`);
 
   // Charger les commandes slash
   await loadSlashCommands(client);
